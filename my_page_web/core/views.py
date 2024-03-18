@@ -3,13 +3,13 @@ from django.shortcuts import render
 
 # Create your views here.
 def home(request):
-    return HttpResponse("<h1>Pagina web personal</h1><h2>Portada</h2>")
+    return render(request,"home/home.html")
 
 def about(request):
-    return HttpResponse("<h1>Pagina web personal</h1><h2>Acerca de</h2>")
+    return render(request,"about/about.html")
 
 def portfolio(request):
-    return HttpResponse("<h1>Pagina web personal</h1><h2>Acerca de</h2>")
+    return render(request,"portfolio/portfolio.html")
 
 def contact(request):
-    return HttpResponse("<h1>Pagina web personal</h1><h2>Acerca de</h2>")
+    return render(request,"contact/contact.html")
