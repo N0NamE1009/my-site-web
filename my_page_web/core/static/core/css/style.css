@@ -8,10 +8,14 @@
 }
 body {
   display: flex;
+  flex-direction: column;
   justify-content: flex-end;
   align-items: flex-end;
   min-height: 100vh;
   background: #333;
+}
+main {
+  flex: 1;
 }
 footer {
   position: relative;
