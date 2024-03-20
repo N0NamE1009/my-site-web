@@ -90,7 +90,7 @@ header nav ul li a.active {
 
 /* Main */
 main {
-  flex: 1;
+  flex: 1 !important;
 }
 
 /* Footer */
