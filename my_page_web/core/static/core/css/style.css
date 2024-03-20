@@ -13,7 +13,7 @@ body {
   justify-content: flex-end;
   align-items: flex-end;
   min-height: 100vh;
-  background: #333;
+  background-color: #333 !important;
 }
 
 /* Nav bar */
@@ -73,7 +73,7 @@ header nav ul li a.active {
     left: -100%;
     top: 70px;
     width: 100%;
-    background: #fff;
+    background: #3586ff;
     padding: 30px;
     transition: 0.3s;
   }
