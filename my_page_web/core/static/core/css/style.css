@@ -11,7 +11,7 @@ body {
   display: flex;
   font-size: 16px;
   flex-direction: column;
-  justify-content: flex-end;
+  /* justify-content: flex-end; */
   align-items: flex-end;
   min-height: 100vh;
   background-color: #333 !important;
@@ -96,7 +96,8 @@ main {
 
 /* Footer */
 footer {
-  position: relative;
+  position: fixed;
+  bottom: 0;
   width: 100%;
   background: #3586ff;
   padding: 20px 50px;
@@ -206,4 +207,13 @@ footer .wave#wave4 {
   100% {
     background-position-x: 1000px;
   }
+}
+
+.box{
+  width: 200px;
+  height: 200px;
+  background-image: url("/static/core/img/foto.png");
+  background-size: cover;
+  border-radius: 50%;
+  margin: 0 auto;
 }
