@@ -1,7 +1,30 @@
 {% extends 'core/base.html'%} {% block title %} Home {% endblock %}
 
-{% block contenido %} 
-<div class="container">
-    <div class="box"></div>
+{% block contenido %}
+{%load static%}
+<div class="contenedor">
+    <div class="image-selection">
+        <img src="{%static 'core/img/icon.png'%}" alt="">
+    </div>
+    <div class="text-content">
+        <span>Luis</span>
+        <span>Graduated in Physics and Mathematics</span>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        <button class="btn"> Descarga CV</button>
+        <div class="social-media">
+            <a href="https://www.linkedin.com/in/luisdbg/">
+                <div class="icono"> <ion-icon name="logo-linkedin"></ion-icon></div>
+            </a>
+            <a href="mailto:luis.dbg1123@outlook.com">
+                <div class="icono"> <ion-icon name="mail-outline"></div></ion-icon>
+            </a>
+            <a href="https://github.com/N0NamE1009">
+                <div class="icono"> <ion-icon name="logo-github"></div></ion-icon>
+            </a>
+            <a href="whatsapp://send?phone=+525527748906">
+                <div class="icono"> <ion-icon name="logo-whatsapp"></div></ion-icon>
+            </a>
+        </div>
+    </div>
 </div>
 {% endblock %}
